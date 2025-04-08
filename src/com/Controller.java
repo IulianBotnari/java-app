@@ -26,18 +26,18 @@ public class Controller {
 	}
 
 	public void conatoreVerticale(int contaFino) {
-		for (int i = 0; 0 <= contaFino; i++) {
+		for (int i = 0; i <= contaFino; i++) {
 			System.out.println(i);
 		}
 
 	}
 
-	public void conatoreOrizzontale(int contaFino) {
-		for (int i = 0; 0 <= contaFino; i++) {
+	public void contatoreOrizzontale(int contaFino) {
+		for (int i = 0; i <= contaFino; i++) {
 			System.out.print(i + "; ");
-		}
+		};
 
-	}
+	};
 
 	public void semaforo(String colore) {
 		if (colore.toLowerCase().equals("rosso")) {
